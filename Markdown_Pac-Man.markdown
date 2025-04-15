@@ -97,4 +97,11 @@ This is a C implementation of the classic Pac-Man game using the Raylib library.
 - High score persists across sessions per difficulty.
 - Pac-Man’s death triggers an animation and resets positions.
 
-This implementation captures the core Pac-Man experience with added power-ups for variety.
+## Lab Group 
+
+- Group Name: DSGO
+- Members:
+- Jay Patel
+- Nikhil Gupta
+- Pearl Tarawat
+- Siddhant Sareen

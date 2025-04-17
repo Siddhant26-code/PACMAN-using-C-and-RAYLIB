@@ -107,9 +107,8 @@ This is a C implementation of the classic Pac-Man game using the Raylib library.
 - Add WASD keys for input
 - Increasing Speed (Speed Boost!)
 - Adding Super Pellets like:
-    Freezing Ghosts for a set duration 
-    Making Ghosts Lazy (decreasing their speeds for some time)
-    etc
+    - Freezing Ghosts for a set duration 
+    - Making Ghosts Lazy (decreasing their speeds for some time) etc
   
 ## Assets
 

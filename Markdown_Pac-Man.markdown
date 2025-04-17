@@ -52,11 +52,30 @@ This is a C implementation of the classic Pac-Man game using the Raylib library.
 ## Local Setup Instructions
 
 - Install GIT (if not installed)
+  ```bash
+    install git
+    winget install --id Git.Git -e --source winget
+    git --version
+  ```
 - Clone the Repo in your PC's powershell using the code:
   ```bash
      git clone https://github.com/username/repository.git
   ```
 - Install Raylib Locally
+  ```bash
+    git clone https://github.com/raysan5/raylib.git
+    cd raylib/src
+    mingw32-make
+  ```
+- Compile the code
+  ```bash
+     gcc PACMAN_Final.c -o pacman.exe -Iraylib/src -Lraylib/src -lraylib -lopengl32 -lgdi32 -lwinmm
+  ```
+- Run the game
+  ```bash
+     .\pacman.exe
+  ```
+  
 ## Code Structure
 
 ### Key Data Structures

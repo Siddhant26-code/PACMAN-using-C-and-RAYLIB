@@ -123,6 +123,7 @@ This is a C implementation of the classic Pac-Man game using the Raylib library.
 - Frightened ghosts move randomly and flash white near the end of the effect.
 - High score persists across sessions per difficulty.
 - Pac-Man’s death triggers an animation and resets positions.
+- Screenshots have been included in the forked repo.
 
 ## Lab Group 
 

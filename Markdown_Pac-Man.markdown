@@ -103,6 +103,14 @@ This is a C implementation of the classic Pac-Man game using the Raylib library.
 - **ghostcollisionpacman**: Detects collisions between Pac-Man and ghosts.
 - **drawPacman**, **drawScore**, **drawlives**: Render game elements.
 
+## Improvements 
+- Add WASD keys for input
+- Increasing Speed (Speed Boost!)
+- Adding Super Pellets like:
+    Freezing Ghosts for a set duration 
+    Making Ghosts Lazy (decreasing their speeds for some time)
+    etc
+  
 ## Assets
 
 - **Sprites**: Pac-Man animations, ghost textures, frightened/eyes states.

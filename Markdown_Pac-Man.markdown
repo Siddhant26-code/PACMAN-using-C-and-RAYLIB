@@ -19,26 +19,20 @@ This is a C implementation of the classic Pac-Man game using the Raylib library.
 
 ### Gameplay Elements
 
-- **Maze**: A 28x31 grid defined in `initialmaze`, with walls (`#`), pellets (`.`), super pellets (`O`), speed boost (`S`), freeze (`F`), and lazy ghost (`L`) pellets.
-- **Pac-Man**: Moves using W,A,S,D or arrow keys, wraps around screen edges, and collects pellets.
+- **Maze**: A 28x31 grid defined in `initialmaze`, with walls (`#`), pellets (`.`), super pellets (`O`).
+- **Pac-Man**: Moves arrow keys, wraps around screen edges, and collects pellets.
 - **Ghosts**: Each ghost has unique behavior:
   - **Blinky**: Chases Pac-Man directly.
   - **Pinky**: Targets a position offset from Pac-Man.
   - **Inky**: Uses Blinky’s position and Pac-Man’s direction for targeting.
   - **Clyde**: Chases Pac-Man if far, scatters if close.
-- **Power-Ups**:
+- **Power-Up**:
   - **Super Pellet (**`O`**)**: Makes ghosts frightened for 9 seconds, allowing Pac-Man to eat them for bonus points (200, 400, 800, 1600).
-  - **Speed Boost (**`S`**)**: Doubles Pac-Man’s speed for 5 seconds.
-  - **Freeze (**`F`**)**: Freezes ghosts for 5 seconds.
-  - **Lazy Ghost (**`L`**)**: Makes one ghost move randomly for 7 seconds.
 
 ### Scoring
 
 - Regular pellet: 10 points
 - Super pellet: 50 points
-- Speed boost pellet: 50 points
-- Freeze pellet: 50 points
-- Lazy ghost pellet: 50 points
 - Eating ghosts: 200 \* 2^n points (n = number of ghosts eaten in sequence)
 - Extra life at 5000 points
 - High score saved to difficulty-specific files (`highscore_easy.txt`, `highscore_medium.txt`, `highscore_hard.txt`)

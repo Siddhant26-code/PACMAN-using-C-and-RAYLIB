@@ -49,6 +49,14 @@ This is a C implementation of the classic Pac-Man game using the Raylib library.
 - **Normal (2)**: Ghost speed = 10
 - **Hard (3)**: Ghost speed = 9, frightened speed = 15
 
+## Local Setup Instructions
+
+- Install GIT (if not installed)
+- Clone the Repo in your PC's powershell using the code:
+  ```bash
+     git clone https://github.com/username/repository.git
+  ```
+- Install Raylib Locally
 ## Code Structure
 
 ### Key Data Structures

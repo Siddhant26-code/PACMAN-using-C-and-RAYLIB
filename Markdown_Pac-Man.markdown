@@ -57,7 +57,7 @@ This is a C implementation of the classic Pac-Man game using the Raylib library.
     winget install --id Git.Git -e --source winget
     git --version
   ```
-- Clone the Repo in your PC's powershell using the code:
+- Clone the Repo locally using your PC's powershell with the code:
   ```bash
      git clone https://github.com/username/repository.git
   ```

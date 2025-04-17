@@ -4,7 +4,7 @@
 
 This is a C implementation of the classic Pac-Man game using the Raylib library. The game includes a maze, Pac-Man, four ghosts (Blinky, Pinky, Inky, Clyde), pellets, super pellets, and special power-ups.
 
-## Game Features
+##  About Game
 
 ### Screens
 

@@ -75,7 +75,8 @@ This is a C implementation of the classic Pac-Man game using the Raylib library.
   ```bash
      .\pacman.exe
   ```
-  
+- Alternatively, go the the directory where the PACMAN_final application is located and direclty run without installing raylib and compiling the code.
+
 ## Code Structure
 
 ### Key Data Structures
